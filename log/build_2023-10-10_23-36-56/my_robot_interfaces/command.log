@@ -1,0 +1,4 @@
+Invoking command in '/home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces -- -j16 -l16
+Invoked command in '/home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces -- -j16 -l16
+Invoking command in '/home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces
+Invoked command in '/home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces

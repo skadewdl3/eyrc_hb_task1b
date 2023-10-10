@@ -1,0 +1,228 @@
+[0.366s] Invoking command in '/home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aniket/eyrc_hb/hb_task1b_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces
+[0.459s] -- The C compiler identification is GNU 11.4.0
+[0.537s] -- The CXX compiler identification is GNU 11.4.0
+[0.547s] -- Detecting C compiler ABI info
+[0.620s] -- Detecting C compiler ABI info - done
+[0.631s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.631s] -- Detecting C compile features
+[0.632s] -- Detecting C compile features - done
+[0.635s] -- Detecting CXX compiler ABI info
+[0.721s] -- Detecting CXX compiler ABI info - done
+[0.729s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.729s] -- Detecting CXX compile features
+[0.730s] -- Detecting CXX compile features - done
+[0.735s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.926s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.036s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.039s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.048s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.105s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.439s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.656s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.941s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.967s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.969s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.004s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.004s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.004s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.004s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.030s] -- Found PythonExtra: .so  
+[2.072s] -- Configuring done
+[2.104s] -- Generating done
+[2.107s] -- Build files have been written to: /home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces
+[2.117s] Invoked command in '/home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aniket/eyrc_hb/hb_task1b_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces
+[2.118s] Invoking command in '/home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces -- -j16 -l16
+[2.162s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.175s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.186s] [  6%] Built target ament_cmake_python_copy_my_robot_interfaces
+[2.447s] running egg_info
+[2.447s] creating my_robot_interfaces.egg-info
+[2.448s] writing my_robot_interfaces.egg-info/PKG-INFO
+[2.448s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[2.448s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[2.448s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[2.450s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[2.450s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[2.453s] [  6%] Built target my_robot_interfaces__cpp
+[2.463s] [  9%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/next_goal__functions.c.o[0m
+[2.464s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.464s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.468s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.477s] [ 19%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[2.536s] [ 22%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[2.573s] [ 22%] Built target my_robot_interfaces__rosidl_generator_c
+[2.583s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.588s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.588s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.712s] [ 35%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/next_goal__type_support.cpp.o[0m
+[2.737s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/next_goal__type_support.cpp.o[0m
+[2.747s] [ 41%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/next_goal__type_support.cpp.o[0m
+[2.827s] [ 45%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/next_goal__type_support.cpp.o[0m
+[2.858s] [ 48%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[2.878s] [ 51%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/next_goal__type_support.c.o[0m
+[2.900s] [ 51%] Built target my_robot_interfaces__rosidl_typesupport_c
+[2.913s] [ 54%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.944s] [ 54%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[2.953s] [ 58%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/next_goal__type_support_c.cpp.o[0m
+[3.017s] [ 61%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[3.057s] [ 61%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[3.120s] [ 64%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.160s] [ 64%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[3.259s] [ 67%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.272s] [ 70%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.338s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.349s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[3.369s] [ 70%] Built target my_robot_interfaces
+[3.392s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.771s] [ 74%] Built target my_robot_interfaces__py
+[3.791s] [ 77%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_next_goal_s.c.o[0m
+[3.919s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so[0m
+[3.961s] [ 80%] Built target my_robot_interfaces__rosidl_generator_py
+[3.986s] [ 83%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.986s] [ 87%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.986s] [ 90%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.088s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.088s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.089s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.121s] [100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.121s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[4.122s] [100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.134s] Invoked command in '/home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces -- -j16 -l16
+[4.209s] Invoking command in '/home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces
+[4.219s] -- Install configuration: ""
+[4.219s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[4.219s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[4.219s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[4.219s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[4.219s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__functions.c
+[4.219s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__functions.h
+[4.219s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__struct.h
+[4.219s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__type_support.h
+[4.220s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/next_goal.h
+[4.220s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[4.220s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.220s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[4.220s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[4.220s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[4.220s] -- Set runtime path of "/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[4.220s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[4.220s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[4.220s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[4.220s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_fastrtps_c.h
+[4.221s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[4.221s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.221s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.221s] -- Set runtime path of "/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.221s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[4.221s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[4.221s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[4.221s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_introspection_c.h
+[4.221s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__type_support.c
+[4.221s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[4.221s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.221s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[4.222s] -- Set runtime path of "/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.222s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[4.222s] -- Set runtime path of "/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[4.222s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[4.222s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[4.222s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[4.222s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__traits.hpp
+[4.222s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__struct.hpp
+[4.222s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__builder.hpp
+[4.222s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/next_goal.hpp
+[4.222s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[4.222s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[4.223s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[4.223s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps
+[4.223s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[4.223s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[4.223s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.223s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.223s] -- Set runtime path of "/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.223s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[4.223s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[4.223s] -- Up-to-date: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[4.223s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__rosidl_typesupport_introspection_cpp.hpp
+[4.223s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/next_goal__type_support.cpp
+[4.223s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.223s] -- Set runtime path of "/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.224s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[4.224s] -- Set runtime path of "/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.224s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[4.224s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[4.224s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info
+[4.224s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.224s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.224s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.224s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.224s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces
+[4.224s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.225s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv
+[4.225s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_next_goal_s.c
+[4.225s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py
+[4.225s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_next_goal.py
+[4.225s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py
+[4.225s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so
+[4.225s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.225s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[4.225s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.225s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.225s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.280s] Listing '/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...
+[4.280s] Compiling '/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...
+[4.280s] Listing '/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...
+[4.280s] Compiling '/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py'...
+[4.280s] Compiling '/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_next_goal.py'...
+[4.286s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.286s] -- Set runtime path of "/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.287s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.287s] -- Set runtime path of "/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.287s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.287s] -- Set runtime path of "/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.287s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[4.287s] -- Set runtime path of "/home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[4.287s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal.idl
+[4.287s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal.srv
+[4.287s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal_Request.msg
+[4.288s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/NextGoal_Response.msg
+[4.288s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[4.288s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[4.288s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[4.288s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[4.288s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[4.288s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[4.288s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[4.288s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[4.289s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[4.289s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[4.289s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[4.289s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[4.289s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[4.289s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.289s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.289s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.289s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.289s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.290s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[4.290s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.290s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[4.290s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.290s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.290s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.290s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.290s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[4.291s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.291s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[4.291s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.291s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.291s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.291s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.291s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.291s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.291s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.292s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.292s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[4.292s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[4.292s] -- Installing: /home/aniket/eyrc_hb/hb_task1b_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[4.295s] Invoked command in '/home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aniket/eyrc_hb/hb_task1b_ws/build/my_robot_interfaces
